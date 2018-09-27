@@ -1,0 +1,18 @@
+
+0x2B	Message_on		SUPPORTED! Doesn't include all the bytecode that Final does, however
+0x37	Sca_id_set		Incompatible Bytecode (Stubbed with Sca_id_set opcode and null data, during conversion)
+0x38	Sca_xzwd_set	Incompatible Bytecode, Never Referenced
+0x39	Sca_type_set	Incompatible Bytecode (Stubbed with Sca_id_set opcode and null data, during conversion)
+0x45	UNKNOWN OPCODE	Incompatible Bytecode Called from ROOM1150.RDT[SUB05], likely related to 0x4C and 0x4D (Psp_ctr() xref)
+0x4C	UNKNOWN OPCODE	Incompatible Bytecode Called from ROOM115U.SCD and ROOM506U.SCD
+0x4D	UNKNOWN OPCODE	Incompatible Bytecode Called from ROOM115U.SCD and ROOM506U.SCD
+0x53	Work_set2		SUPPORTED! Same as Work_set(), but w/Stack
+0x58	Ck2				SUPPORTED! Same as Ck(), but w/Reference to F_atari
+0x59	Set2			SUPPORTED! Same as Set(), but w/Reference to F_atari
+0x5C	Sce_bgmtbl_set	SUPPORTED! Doesn't include all the bytecode that Final does, however
+
+Obj_model_set, not sure about this one
+
+Door_aot_set_4p isn't implemented
+
+AOT values aren't compatible between the two engines; Ids are different and Bio1.5 stairs aren't compatible
